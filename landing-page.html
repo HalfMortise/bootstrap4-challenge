@@ -8,37 +8,28 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	</head>
 	<body>
-		<main class="container">
-			<div class="row">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
 					<a class="navbar-brand" href="#">Café au Lait</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
-					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-							<li class="nav-item active">
-								<a class="nav-link" href="#">Home <span class="sr-only">Home</span></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">About Coffee</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Coffee Drinks</a>
-							</li>
-						</ul>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-item nav-link active" href="#">Home</a>
+							<a class="nav-item nav-link" href="#">About Coffee</a>
+							<a class="nav-item nav-link" href="#">Coffee Drinks</a>
+						</div>
 					</div>
 				</nav>
-			</div>
 			<!--JUMBOTRON-->
-			<div class="jumbotron">
+			<div class="container jumbotron mt-6 mb-6">
 				<h1 class="display-4">Hello, world!</h1>
 					<p class="lead">This is a simple hero unit, a simple jumbotron-style component blah blah blah.</p>
 					<p>Additional text here to provide more information about the jumbotron.</p>
 					<a class="btn btn-primary" href="#" role="button">Learn more</a>
 			</div>
 			<!--ABOUT COFFEE-->
-			<div class="container-fluid">
+			<div class="container-fluid py-4 bg-secondary">
 				<div class="row">
 					<div class="col-md-3">
 						<img class="img-fluid" src="./images/plantation.jpg">
@@ -50,6 +41,7 @@
 					</div>
 				</div>
 			</div>
+			<hr />
 			<!--COFFEE DRINKS-->
 			<div class="container align-items-baseline">
 				<!--This row will stretch to the max on a small screen-->
@@ -74,13 +66,6 @@
 					</div>
 				</div>
 			<!--FOOTER-->
-			<div class="row">
-				<ul class="nav justify-content-center">
-					<li class="nav-item">
-						© <a class="nav-link active" href="https://www.github.com/halfmortise">HalfMortise</a> 2018
-					</li>
-				</ul>
-			</div>
-		</main>
+		<footer class="bg-dark text-white py-3">© <a class="nav-link active" href="https://www.github.com/halfmortise">HalfMortise</a> 2018</footer>
 	</body>
 </html>
