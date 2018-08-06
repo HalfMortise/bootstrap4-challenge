@@ -11,22 +11,23 @@
 		<main class="container">
 			<div class="row">
 				<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<!--navbarTogglerDemo02 allows for a brand aligned to the left and menu aligned to the right-->
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="nav-bar-toggler-icon"></span>
-					</button>
 					<a class="navbar-brand" href="#">Café au Lait</a>
-					<ul class="nav justify-content-end">
-						<li class="nav-item">
-							<a class="nav-link active" href="#">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" href="#">About Us</a>
-						</li>
-						<li>
-							<a class="nav-link active" href="#">Coffee Drinks</a>
-						</li>
-					</ul>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+						<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">Home</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About Coffee</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Coffee Drinks</a>
+							</li>
+						</ul>
+					</div>
 				</nav>
 			</div>
 			<!--JUMBOTRON-->
@@ -36,11 +37,18 @@
 					<p>Additional text here to provide more information about the jumbotron.</p>
 					<a class="btn btn-primary" href="#" role="button">Learn more</a>
 			</div>
-			<!--ABOUT US-->
-			<div class="row">
-				<p>
-					Every day is taco ipsum tuesday. Shrimp tacos are tasty tacos! Let’s do a beef and a chicken, and one with both. Make it a double there pal. Give me all your tacos. It’s a wonderful morning for breakfast tacos. I’ve been following that taco truck around all day. It’s long been rumored that the chupacabra is really just a crazed man who’s local taco shop went out of business. Tacos Al pastor/De Adobada are made of thin pork steaks seasoned with adobo seasoning, then skewered and overlapped on one another on a vertical rotisserie cooked and flame-broiled as it spins.
-				</p>
+			<!--ABOUT COFFEE-->
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-3">
+						<img class="img-fluid" src="./images/plantation.jpg">
+					</div>
+					<div class="col-md-9">
+						<p>
+							Coffee needs an annual rainfall of 1500 to 3000 mm, with Arabica needing less than other species. Whereas Robusta coffee can be grown between sea-level and about 800 metres, Arabica does best at higher altitudes and is often grown in hilly areas. As coffee is often grown in mountainous areas, widespread use of mechanical harvesters is not possible and the ripe coffee cherries are usually picked by hand. The main exception is Brazil, where the relatively flat landscape and immense size of the coffee fields allow for machinery use. Coffee trees yield an average of 2 to 4 kilos of cherries and a good picker can harvest 45 to 90 kilos of coffee cherry per day; this will produce nine to 18 kilos of coffee beans. <a href="https://www.coffeeandhealth.org/" target="_blank">Source</a>
+						</p>
+					</div>
+				</div>
 			</div>
 			<!--COFFEE DRINKS-->
 			<div class="container align-items-baseline">
